@@ -36,7 +36,7 @@ def symptom1():
                     
                     st.markdown(
                            """
-                           <a href="https://jatin41-heart-disease-heart-disease-prediction-7phf7n.streamlit.app" target="_blank">Heart disease</a>
+                           <a href="https://heartdisease-kbqoypek7pi.streamlit.app" target="_blank">Heart disease</a>
                            """,
                            unsafe_allow_html=True
                            )   
@@ -44,23 +44,16 @@ def symptom1():
                     st.write('Have a medical Diagnosis and click here to check for migraine ')
                     st.markdown(
                            """
-                           <a href="https://jatin41-migraine-migraine-vlclyn.streamlit.app" target="_blank">Migraine</a>
+                           <a href="https://migraine-tij18x29gw.streamlit.app" target="_blank">Migraine</a>
                            """,
                            unsafe_allow_html=True
                            )
-                if 'Parkinsons'  in data[j]:
-                    st.write('click here to check for parkinsons ')
-                    st.markdown(
-                           """
-                           <a href="https://jatin41-parkinsons-parkinsons-fjud3r.streamlit.app" target="_blank">Parkinsons</a>
-                           """,
-                           unsafe_allow_html=True
-                           )
+                
                 if 'Diabetes' in data[j]:
                     st.write('click here to check for Diabetes ')
                     st.markdown(
                            """
-                           <a href="https://jatin41-my-webapps-diabetes-prediction-twi2ua.streamlit.app/" target="_blank">Diabetes</a>
+                           <a href="https://diabetes-qhh7fq6wlw8.streamlit.app/" target="_blank">Diabetes</a>
                            """,
                            unsafe_allow_html=True
                            )
@@ -68,7 +61,7 @@ def symptom1():
                    st.write('click here to check for Covid ')
                    st.markdown(
                             """
-                           <a href="https://jatin41-covid-covid-y4gv5m.streamlit.app/" target="_blank">Covid 19</a>
+                           <a href="https://covid-453zeqxjxpv.streamlit.app/" target="_blank">Covid 19</a>
                            """,
                            unsafe_allow_html=True
                            )
